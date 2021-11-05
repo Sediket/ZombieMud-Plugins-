@@ -11,7 +11,7 @@
 In the plugin there are some variables at the begining of the script tag:
 * chat_world = "channels|tells" -- this must match the name of the world the text will be redirected to
 * bell = 1 -- This will make a bell sound when you recevie a tell
-* log_directory = "ZombieMush\\Logs\\" -- this is <Mushclient Install Location>\worlds\zombieMush\Logs
+* log_directory = "ZombieMush\\Logs\\" -- this is <Mushclient Install Location>\worlds\zombieMush\Logs -- if this doesn't exist it will be created on plugin install
 * logit = 1 -- This will control logging
   
 Additionally the triggers will omit the text from the main world, if you don't want that change the omit_from_output="y" to "n"
