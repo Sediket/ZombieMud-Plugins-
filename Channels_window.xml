@@ -48,7 +48,7 @@ Change the variable "chat_world" to be the name of the world chats are to go to.
 
     <trigger
     enabled="y"
-    match="^[a-zA-Z ]+ (?:\[|\{|\<)(\w+)(?:\]|\}|\>): .*$"
+    match="^[a-zA-Z ()]+ (?:\[|\{|\<)(\w+)(?:\]|\}|\>): .*$"
     regexp="y"
     omit_from_output="y"
     sequence="100"
